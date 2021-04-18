@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace InspectionSequencer
+namespace InspectionSequencer.Views
 {
     /// <summary>
-    /// MainWindow.xaml の相互作用ロジック
+    /// InspectionView.xaml の相互作用ロジック
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class InspectionView : Window
     {
-        public MainWindow()
+        public InspectionView()
         {
             InitializeComponent();
         }
