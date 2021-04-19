@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InspectionSequencer.ViewModels
 {
-    class InspectionViewModel
+    class InspectionViewModel: ViewModelBase
     {
     }
 }
